@@ -1,0 +1,9 @@
+Pyperclip has 4 methods/function which can be used.
+
+1. Pyperclip.copy() - It will copy the data to the clipboard which will be present inside () braces
+
+2. Pyperclip.paste() - latest data will be copied from the clipboard to termial or it can be stored to a variable for futher use.
+
+3. pyperclip.waitForPaste() - It will no print to terminal or save data to any variable from the clipboard until, you have copied NON-EMPTY string.
+
+4. pyperclip.waitForNewPaste() - It will wait for new text to get copied in clipboard, then only it will save that particular latest text from the clipboard to the variable or display to termial.
